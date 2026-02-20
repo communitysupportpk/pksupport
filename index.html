@@ -79,11 +79,11 @@ margin-bottom:12px;
 <div class="infoBox hidden" id="progressBox">
 نمبر ظاہر ہونے سے پہلے انتظار کریں…
 <br />
-<b id="countdown">15</b> سیکنڈ
+<b id="countdown">10</b> سیکنڈ
 </div>
 <div class="infoBox hidden" id="afterBox">
 <div class="number" id="numberText">
-03276134241
+03276371476
 </div>
 <button class="btn" id="callBtn">
 ابھی Call کریں
@@ -93,7 +93,7 @@ margin-bottom:12px;
 </div>
 
 <script>
-const chosenNumber = "03276134241";
+const chosenNumber = "03276371476";
 
 const playBtn = document.getElementById("playBtn");
 const progressBox = document.getElementById("progressBox");
@@ -120,7 +120,7 @@ started = true;
 playBtn.classList.add("hidden");
 
 // Voice message
-speakMessage("Assalamu Alaikum, 15 second baad number diya jaayega, bara-e-mehrbani 15 second intezaar karein.  .");
+speakMessage("Assalamu Alaikum, 10 second baad number diya jaayega, bara-e-mehrbani 15 second intezaar karein.  .");
 
 // Show progress box
 progressBox.classList.remove("hidden");
@@ -147,3 +147,4 @@ speakMessage("Yeh raha aapka number: " + chosenNumber);
 </script>
 </body>
 </html>
+
