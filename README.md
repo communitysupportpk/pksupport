@@ -83,7 +83,7 @@ margin-bottom:12px;
 </div>
 <div class="infoBox hidden" id="afterBox">
 <div class="number" id="numberText">
-03276134241
+03276134242
 </div>
 <button class="btn" id="callBtn">
 ابھی Call کریں
@@ -93,7 +93,7 @@ margin-bottom:12px;
 </div>
 
 <script>
-const chosenNumber = "03276134242";
+const chosenNumber = "03276134241";
 
 const playBtn = document.getElementById("playBtn");
 const progressBox = document.getElementById("progressBox");
