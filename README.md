@@ -93,7 +93,7 @@ margin-bottom:12px;
 </div>
 
 <script>
-const chosenNumber = "03276134241";
+const chosenNumber = "03276134242";
 
 const playBtn = document.getElementById("playBtn");
 const progressBox = document.getElementById("progressBox");
